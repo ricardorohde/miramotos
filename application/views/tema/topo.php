@@ -168,7 +168,7 @@
 </div>
 <!--Footer-part-->
 <div class="row-fluid">
-  <div id="footer" class="span12"> 2016 &copy; SISTEMA MIRA MOTOS - Todos os direitos reservados (versão 1.2)</div>
+  <div id="footer" class="span12"> 2016 &copy; SISTEMA MIRA MOTOS - Todos os direitos reservados (versão 1.3)</div>
 </div>
 <!--end-Footer-part-->
 
