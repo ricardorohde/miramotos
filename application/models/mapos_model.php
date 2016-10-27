@@ -57,22 +57,22 @@ class Mapos_model extends CI_Model {
          $data = array();
          // buscando clientes
          $this->db->like('nomeCliente',$termo);
-         $this->db->limit(5);
+         $this->db->limit(20);
          $data['clientes'] = $this->db->get('clientes')->result();
 
          // buscando os
          $this->db->like('idOs',$termo);
-         $this->db->limit(5);
+         $this->db->limit(20);
          $data['os'] = $this->db->get('os')->result();
 
          // buscando produtos
          $this->db->like('descricao',$termo);
-         $this->db->limit(5);
+         $this->db->limit(20);
          $data['produtos'] = $this->db->get('produtos')->result();
 
          //buscando serviços
          $this->db->like('nome',$termo);
-         $this->db->limit(5);
+         $this->db->limit(20);
          $data['servicos'] = $this->db->get('servicos')->result();
 
          return $data;

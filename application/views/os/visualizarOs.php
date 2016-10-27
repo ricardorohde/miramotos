@@ -46,7 +46,8 @@
                                             <li>
                                                 <span><h5>Cliente</h5></span>
                                                 <span style="font-size: 10px; "><?php echo $result->nomeCliente?></span><br/>
-                                                <span style="font-size: 10px; ">CPF: <?php echo $result->documento?>
+                                                <span style="font-size: 10px; ">Telefone: <?php echo $result->telefonecli?></span><br/>
+                                                    <span style="font-size: 10px; ">Celular: <?php echo $result->celular?>
                                             </li>
                                         </ul>
                                     </td>

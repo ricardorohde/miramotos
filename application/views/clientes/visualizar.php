@@ -58,7 +58,7 @@
                                             <tbody>
                                                 <tr>
                                                     <td style="text-align: right; width: 30%"><strong>Telefone</strong></td>
-                                                    <td><?php echo $result->telefone ?></td>
+                                                    <td><?php echo $result->telefonecli ?></td>
                                                 </tr>
                                                 <tr>
                                                     <td style="text-align: right"><strong>Celular</strong></td>

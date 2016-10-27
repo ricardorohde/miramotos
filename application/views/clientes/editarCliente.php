@@ -26,9 +26,9 @@
                         </div>
                     </div>
                     <div class="control-group">
-                        <label for="telefone" class="control-label">Telefone</label>
+                        <label for="telefonecli" class="control-label">Telefone</label>
                         <div class="controls">
-                            <input id="telefone" type="text" name="telefone" value="<?php echo $result->telefone; ?>"  />
+                            <input id="telefonecli" type="text" name="telefonecli" value="<?php echo $result->telefonecli; ?>"  />
                         </div>
                     </div>
 
